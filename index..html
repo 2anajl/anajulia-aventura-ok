@@ -1,0 +1,83 @@
+<<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Jornada do Artefato Perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/360_F_340078556_YD52qpLaiTbO5E0OF90FuOaAq3sZr8yF.jpg" alt="">
+            <p>Você encontrou um diário antigo na biblioteca da sua avó, que fala sobre um artefato místico perdido há séculos. Decidido a encontrar esse artefato, você começa sua jornada seguindo as pistas deixadas no diário.</p>
+            <button class="btn-proximo" data-proximo="1">São Paulo</button>
+            <button class="btn-proximo" data-proximo="2">Salvador</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você inicia sua busca em São Paulo, onde o diário menciona que a primeira pista pode ser encontrada em uma antiga livraria.</p>
+            <button class="btn-proximo" data-proximo="3">Investigar a livraria</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em Salvador, o diário sugere que você comece sua busca no Pelourinho. Há rumores de um mapa antigo escondido em uma das lojas históricas da área. Qual loja você decide investigar?</p>
+            <button class="btn-proximo" data-proximo="5">Visitar a loja de antiguidades</button>
+            <button class="btn-proximo" data-proximo="6">Explorar o mercado de artesanato</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Na livraria antiga de São Paulo, você encontra um velho manuscrito que indica que a próxima pista está em uma caverna no interior do Brasil.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para a caverna no interior</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/decoracao-casa-moderna-casa-j-a-fachada-externa-revisitearquiteturaeconstru-295624-proportional-height_cover_medium.jpg" alt="imagem voltando para casa e desistindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa. O mistério do artefato perdido continua sem resposta.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Na loja de antiguidades, você encontra um mapa enigmático que aponta para uma caverna no interior do Brasil.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para a caverna no interior</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando o mercado de artesanato, você descobre apenas souvenires e não encontra pistas úteis sobre o artefato perdido.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e investigar a loja de antiguidades</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Na caverna do interior, você se depara com dois caminhos. O diário menciona que a pista para o artefato está em um dos dois caminhos.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir o caminho à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir o caminho à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta à loja de antiguidades, você encontra o mapa e segue para a caverna no interior do Brasil.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para a caverna no interior</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O caminho à esquerda leva você a uma sala secreta com inscrições antigas que revelam a localização exata do artefato perdido.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a sala secreta</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O caminho à direita termina em uma caverna vazia. Embora tenha uma vista impressionante, não há sinal do artefato perdido.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro caminho</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/51lUtr1VQqL._AC_UF894,1000_QL80_.jpg" alt="encontrando o artefato perdido na caverna">
+            <p>Você encontra o artefato perdido e decide levá-lo de volta para estudá-lo e preservá-lo, garantindo que seu mistério e poder sejam protegidos.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o caminho à esquerda, você finalmente encontra a sala secreta e o artefato perdido.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a sala secreta</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
